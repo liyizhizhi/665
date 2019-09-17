@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00ffea">
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+        <RadioGroup
+            android:orientation="vertical"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RadioButton
+                android:text="运动户外"
+                android:background="@drawable/colorss"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:button="@null"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+            <RadioButton
+                android:text="图书"
+                android:layout_weight="1"
+                android:background="@drawable/colorss"
+                android:gravity="center"
+                android:button="@null"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+            <RadioButton
+                android:text="玩具乐器"
+                android:layout_weight="1"
+                android:background="@drawable/colorss"
+                android:gravity="center"
+                android:button="@null"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+            <RadioButton
+                android:text="钟表"
+                android:background="@drawable/colorss"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:button="@null"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+            <RadioButton
+                android:text="居家生活"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:button="@null"
+                android:background="@drawable/colorss"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+            <RadioButton
+                android:text="珠宝饰品"
+                android:layout_weight="1"
+                android:background="@drawable/colorss"
+                android:gravity="center"
+                android:button="@null"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+        </RadioGroup>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="4"
+        android:layout_width="0dp"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+<ImageView
+    android:background="@drawable/song"
+    android:layout_marginTop="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="200dp" />
+        <ImageView
+            android:background="@drawable/qqq"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:background="@drawable/qww"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:background="@drawable/biao"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+    </LinearLayout>
+
+</LinearLayout>
